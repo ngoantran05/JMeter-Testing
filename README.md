@@ -30,18 +30,18 @@ Kết quả kiểm tra:
 
 
 Phân tích kết quả kiểm tra:
-- Số lượng yêu cầu thành công: [Điền số liệu thực tế].
-- Số lượng yêu cầu thất bại: [Điền số liệu thực tế].
-- Tỷ lệ yêu cầu thành công: [Điền tỷ lệ thực tế].
-- Tỷ lệ yêu cầu thất bại: [Điền tỷ lệ thực tế].
-- Thời gian phản hồi trung bình: [Điền số liệu thực tế].
-- Thời gian phản hồi trung vị: [Điền số liệu thực tế nếu có].
-- Thời gian phản hồi percentile 90: [Điền số liệu thực tế nếu có].
-- Thông lượng: [Điền số liệu thực tế] yêu cầu/giây.
+- Số lượng yêu cầu thành công: 200.
+- Số lượng yêu cầu thất bại: 0%.
+- Thời gian phản hồi trung bình: 727 ms.
+- Thời gian phản hồi trung vị: 869 ms.
+- Thời gian phản hồi percentile 90: 1.528 ms.
+- Thông lượng: 17. yêu cầu/giây.
 Kết luận:
-Dựa trên kết quả kiểm thử thực tế, đánh giá hiệu năng của HTTPBin thông qua thời gian phản hồi, tỷ lệ yêu cầu thất bại và thông lượng. Nếu tỷ lệ yêu cầu thành công cao, thời gian phản hồi thấp và thông lượng ổn định trong quá trình kiểm thử, có thể nhận xét rằng website đáp ứng tốt trong phạm vi tải đã thực hiện.
-Kết quả kiểm thử chỉ phản ánh điều kiện thử nghiệm cụ thể, không đại diện cho hiệu năng của website trong mọi thời điểm hoặc mọi mức tải.
+Trang web https://httpbin.org/get có hiệu năng tốt. Số lượng yêu cầu thành công rất cao (100%), số lượng yêu cầu thất bại rất thấp (0%). Thời gian phản hồi trung bình, trung vị và percentil 90 đều ở mức cao. Chuyển tải của trang web cũng khá cao (17.1 yêu cầu/giây).
 Hình ảnh tổng quát
-Chụp ảnh giao diện Apache JMeter, cấu hình Thread Group và HTTP Request để minh họa quá trình xây dựng kịch bản kiểm thử.
+<img width="1917" height="605" alt="Screenshot 2026-10-14 105848" src="https://github.com/user-attachments/assets/70be3ee1-dd51-4332-88ff-7b41ee53a340" />
+
+
+
 
 
